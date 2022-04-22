@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import TinderCard from 'react-tinder-card';
 import "./tinderClass.css";
 import Axios from "./axios";
+import SwipeButtons from './SwipeButtons';
 
 function TinderCards() {
 
@@ -51,6 +52,8 @@ function TinderCards() {
                 </TinderCard>
             ))}
         </div>
+
+        <SwipeButtons />
     </div>
   )
 }

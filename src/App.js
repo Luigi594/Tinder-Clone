@@ -1,20 +1,20 @@
 import './App.css';
 import Header from './Header';
-import SwipeButtons from './SwipeButtons';
 import TinderCards from './TinderCards';
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-
+      
       {/** Header */}
       <Header />
+      <Routes>
+        <Route path='/chat'></Route>
 
-      {/** Tinder Cards */}
-      <TinderCards />
 
-      {/** Swipe Buttons */}
-      <SwipeButtons />
+        <Route path='/' element={<TinderCards />}/>
+      </Routes>
     </div>
   );
 }
