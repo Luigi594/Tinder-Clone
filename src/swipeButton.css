@@ -4,9 +4,8 @@
     bottom: 10vh;
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 100;
+    justify-content: space-evenly;
+    right: 0;
 }
 
 .swipeButtons .MuiIconButton-root{
