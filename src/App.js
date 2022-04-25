@@ -6,8 +6,6 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      
-      {/** Header */}
       <Routes>
         <Route path='/chats' element={<Chats />}/>
         <Route path='/' element={<TinderCards />}/>
