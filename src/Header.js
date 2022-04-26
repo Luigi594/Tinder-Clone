@@ -15,7 +15,7 @@ function Header({ backButton }) {
     <div className='header'>
 
       {backButton ? (
-        <IconButton onClick={() => history("/")}>
+        <IconButton onClick={() => history(backButton)}>
           <ArrowBackIosIcon fontSize='large' className='header_icon' />    
         </IconButton>
       ): (

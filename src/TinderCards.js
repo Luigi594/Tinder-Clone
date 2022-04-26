@@ -38,6 +38,8 @@ function TinderCards() {
         <Header />
         <div className='tinderClass'>
             <div className="tinderCard_container">
+
+                {/** for each people we use the map function */}
                 {people.map((person) => (
                     <TinderCard
 

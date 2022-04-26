@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import "./Chats.css";
-import IndividualChat from './IndividualChat';
+import AllChats from './AllChats';
 
 function Chats() {
   return (
@@ -9,7 +8,7 @@ function Chats() {
     <>
     <Header backButton="/" />
         <div className='chats'>
-            <IndividualChat
+            <AllChats
             
             name="Kiernan"
             message={"What's up?"}
